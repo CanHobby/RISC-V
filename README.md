@@ -14,11 +14,11 @@ I plan to open separate repositories for each board...  CH32V003, CH32V103, <a h
  - select the CU family and the variant.
  - go to top of the dialogue and add your project name..
  - click on FINISH
- - ....  here I normally go toe Window->Preferences->Geeral->Appearance  to enable themeing and select dark theme.
-     Apply and close...   Yu will need to Close the IDE and Restart it.
-   The IDE will have set up a basic template which includes setting up the clock, delay functions and the USART complete with printf.
+ - ....  here I normally go to Window->Preferences->General->Appearance  to enable themeing and select dark theme.
+     Apply and close...   You will need to close the IDE and Restart it.
+   The IDE will have set up a basic template which includes setting up the clock, delay functions and USART complete with printf.
    Look under >User and you should find "main.c" - this is where things start...
-   Right Clicking on "User" should give yo the option add a Directory
+   Right Clicking on "User" should give yo the option add a Directory  ......  TBCont'd
    
 
 
