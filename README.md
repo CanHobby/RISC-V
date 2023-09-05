@@ -11,10 +11,16 @@ I plan to open separate repositories for each board...  CH32V003, CH32V103, <a h
 - the instructions are TOO complicated and, I think, were written for an old version of MRS - better ignored.
 - the example has a typo - I have taken the time to fix this and put together a full workspace as an example.
 - there are too many files to add to my github repo so I have it all in a ".zip"
+To setup a C++ workspace create a new directory to use and unzip "V203C++_template.zip" into this directory.
+Open MRS and specify this directory to use as a workspace.
+It should be ready to go. My example includes a small example class for those who may not be totally familiar with C++.
+- Do NOT change the project name - MRS will not update all of the ".*" files properly.
+- I have yet to figure out how to add multiple projects to a workspace - they will clash in the linker.
+
+Go ahead and build the project and upload using F8.
 
 
-
-### How to add this code to Moun River... (using my "clumsy")...
+### How to add 'C' code to Moun River... (using my "clumsy")...
 
  1). Create a separate directoy in your filesystem to be used as a "workspace" by Moun River.
  2). Open Moun River specifying this new workspace - do not set to "default workspace".
