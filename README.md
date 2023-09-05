@@ -7,7 +7,7 @@ I plan to open separate repositories for each board...  CH32V003, CH32V103, <a h
 
 ### How to set up a C++ workspace for Moun River... (using my "clumsy")...
 
-- the individual MCU directories at <a href="https://github/openwch/ch32v20x" target=_blank>openwch github</a> each have an EVT C++ directory which contains a C++ example and instruction PDF.
+- the individual MCU directories at <a href="https://github/openwch/ch32v20x" target=_blank>openwch github</a> each have a C++ directory which contains a C++ example and instruction PDF.
 - the instructions are TOO complicated and, I think, were written for an old version of MRS - better ignored.
 - the example has a typo - I have taken the time to fix this and put together a full workspace as an example.
 - there are too many files to add to my github repo so I have it all in a ".zip"
