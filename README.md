@@ -1,4 +1,4 @@
-# RISC-V
+# RISC-V MCU examples for CH32Vxxx
 How to program RISC-V MCUs such as the CH32Vxxx family from WCH, using 'C' or 'C++'.
 
 After some early teething problems as documented at the <a href="https://github.com/openwch/ch32v003/issues/16" target="_blank"> openwch github</a> and my <a href="https://hackaday.io/project/191172-using-ch32vxxx-risc-v-and-moun-river" target="_blank">hackaday</a>, I am happy to submit some example code.  I am using the Moun River IDE under Linux (Mint) even though I am no Eclipse expert, so my attempts at sharing projects may seem clumsy.  Any suggestion are more than welcome.
@@ -35,6 +35,10 @@ Go ahead and build the project and upload using F8.
    Look under >User and you should find "main.c" - this is where things start...  you will probably want to replace this "main/c" with the one from my examples..
    
    Right Clicking on "User" should give yo the option add a Directory  ......  TBCont'd
+
+   ### How to use freeRTOS in Moun River... (no "clumsy")...
+   1).  see my <a href="https://github.com/CanHobby/freeRTOS">freeRTOS</a> repo. -- real easy..
+   
    
 
 
